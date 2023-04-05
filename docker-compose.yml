@@ -7,7 +7,7 @@ version: '3.8'
 
 services:
 
-  sites-2-ligerosmart-com:
+  redirect-site1:
     image: morbz/docker-web-redirect
     environment:
       - REDIRECT_TARGET=${REDIRECT_DESTINATION}
